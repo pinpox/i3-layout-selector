@@ -9,12 +9,12 @@
        "x": 0,
        "y": 0
     },
-    "name": "i3-layout-selector: i3-save-tree > testlayout.json",
+    "name": "layouts: fg",
     "percent": 0.5,
     "swallows": [
        {
         "class": "window1",
-        "title": "window1",
+        "title": "window1"
        }
     ],
     "type": "con"
@@ -43,7 +43,7 @@
             "swallows": [
                {
                 "class": "window2",
-                "title": "window2",
+                "title": "window2"
                }
             ],
             "type": "con"
@@ -58,16 +58,17 @@
                "x": 0,
                "y": 0
             },
-            "name": "~",
+            "name": "binaryplease: i3-save-tree --workspace 8",
             "percent": 0.5,
             "swallows": [
                {
                 "class": "window3",
-                "title": "window3",
+                "title": "window3"
                }
             ],
             "type": "con"
         }
     ]
 }
+
 
