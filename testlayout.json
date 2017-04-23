@@ -1,0 +1,73 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 3,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 434,
+       "width": 722,
+       "x": 0,
+       "y": 0
+    },
+    "name": "i3-layout-selector: i3-save-tree > testlayout.json",
+    "percent": 0.5,
+    "swallows": [
+       {
+        "class": "window1",
+        "title": "window1",
+       }
+    ],
+    "type": "con"
+}
+
+{
+    // splitv split container with 2 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 434,
+               "width": 722,
+               "x": 0,
+               "y": 0
+            },
+            "name": "~",
+            "percent": 0.5,
+            "swallows": [
+               {
+                "class": "window2",
+                "title": "window2",
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 434,
+               "width": 722,
+               "x": 0,
+               "y": 0
+            },
+            "name": "~",
+            "percent": 0.5,
+            "swallows": [
+               {
+                "class": "window3",
+                "title": "window3",
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
